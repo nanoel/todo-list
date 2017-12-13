@@ -777,7 +777,8 @@ select {
 textarea {
   color: #fff;
   font-weight: 500;
-  background: transparent; }
+  background: transparent;
+  width: 100%; }
 
 hr {
   width: 100%;
