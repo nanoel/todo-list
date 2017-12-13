@@ -1,0 +1,109 @@
+@import "normalize";
+@import "layout";
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,500,600,700,800');
+
+
+body{
+
+	background: url(../img/Depositphotos_35960009_l.jpg) 50%;
+	background-size: cover;
+	font: 200 16px/1.2 'Raleway', sans-serif;
+	color: #fff;
+}
+
+
+$primary-color: #fff;
+$text-color: #fcfcfc;
+$secondary-color: #ef4836;
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	display: inline-block;
+	border: #2967BD;
+	background: #2967BD;
+	color: #2b2b2b;
+	font-size: 18px;
+	font-weight: 700;
+
+	&:hover {
+		color: #ef4836;
+	}
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	// margin: 0 auto;
+	// color: blue;
+	// font-weight: 500;
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+	color: #fff;
+	font-weight: 500;
+	background: transparent;
+
+}
+
+hr {
+	width:100%;
+	border:none;
+	height:2px;
+	background:#000;
+}
+
+.ba-list {
+	margin-top: 40px;
+	background: rgba(5, 5, 5, 0.84);
+	padding: 40px;
+
+}
+
